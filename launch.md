@@ -1,15 +1,26 @@
-# XDOL — Official Launch Declaration
+# XDOL — Declaração Oficial de Status
 
-Token Name: XDOL  
-Symbol: XDOL  
-Network: Ethereum (ERC-20)  
-Contract: 0xA4842662637e7C8A0210247D89244B0E45d3f777  
+**Nome do token:** XDOL  
+**Símbolo:** XDOL  
+**Rede:** Ethereum (ERC-20)  
+**Contrato:** 0xA4842662637e7C8A0210247D89244B0E45d3f777  
 
-Official Launch Date: 22 January 2026  
-Genesis Liquidity Pool: XDOL / USDT  
-Initial Price: 1 USDT = 4 XDOL  
-Initial Liquidity: 500 USDT  
-Liquidity Lock: 10 Years  
+## Status Atual
 
-XDOL is officially launched as a decentralized digital stable-value utility token.
-All public liquidity is permanently locked according to the POL Manifest.
+O token XDOL possui contrato implantado e verificado na rede Ethereum.
+
+A formação de liquidez e a abertura pública do mercado ocorrerão de forma
+estratégica, priorizando estabilidade, segurança e transparência para todos
+os participantes.
+
+Nenhuma data fixa de lançamento é anunciada neste momento.
+
+## Liquidez
+
+- Par planejado: XDOL / USDT  
+- Preço inicial de referência: 1 USDT = 4 XDOL  
+- Liquidez inicial planejada: 500 USDT  
+- Política de bloqueio de liquidez: até 10 anos, conforme o Manifesto POL
+
+Este documento substitui qualquer comunicação anterior que mencionasse
+datas específicas de lançamento.
