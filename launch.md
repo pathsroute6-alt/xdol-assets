@@ -18,7 +18,7 @@ Nenhuma data fixa de lançamento é anunciada neste momento.
 ## Liquidez
 
 - Par planejado: XDOL / USDT  
-- Preço inicial de referência: 1 USDT = 4 XDOL  
+- Preço inicial de referência: 1 XDOL ≈ 0,03 USDT
 - Liquidez inicial planejada: 500 USDT  
 - Política de bloqueio de liquidez: até 10 anos, conforme o Manifesto POL
 
