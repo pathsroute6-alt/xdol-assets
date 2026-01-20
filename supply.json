@@ -1,13 +1,18 @@
 {
-  "token": "XDOL",
-  "network": "Ethereum",
-  "contract": "0xA4842662637e7C8A0210247D89244B0E45d3f777",
-  "total_supply": 500000000,
+  "token": "x-DOL-x",
+  "simbolo": "XDOL",
+  "rede": "Ethereum",
+  "contrato": "0xA4842662637e7C8A0210247D89244B0E45d3f777",
+
+  "oferta_total": 500000000,
   "circulating_supply": 0,
-  "locked_supply": 500000000,
-  "decimals": 6,
-  "mintable": false,
-  "burnable": true,
-  "owner_control": false,
-  "launch_status": "PRE-LAUNCH"
+  "fornecimento_bloqueado": 500000000,
+
+  "decimais": 6,
+
+  "cunhavel": false,
+  "inflacionario": false,
+  "controle_do_proprietario": false,
+
+  "status": "DEPLOYED_NO_MARKET"
 }
