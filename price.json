@@ -1,10 +1,12 @@
 {
   "token": "XDOL",
-  "pair": "XDOL/USDT",
-  "network": "Ethereum",
-  "contract": "0xA4842662637e7C8A0210247D89244B0E45d3f777",
-  "initial_price": "0.25",
-  "peg": "1 USDT = 4 XDOL",
-  "launch_date": "2026-01-22",
-  "liquidity_lock_years": 10
+  "nome": "x-DOL-x",
+  "rede": "Ethereum",
+  "contrato": "0xA4842662637e7C8A0210247D89244B0E45d3f777",
+  "par_referencia": "XDOL/USDT",
+  "preco_referencia_usdt": 0.03,
+  "descricao_preco": "Preço de referência inicial. Não representa valor fixo ou garantido.",
+  "liquidez_inicial_usdt": 500,
+  "bloqueio_liquidez_anos": 10,
+  "status": "pre-launch"
 }
