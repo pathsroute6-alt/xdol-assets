@@ -1,6 +1,6 @@
 # XDOL — Declaração Oficial de Status
 
-**Nome do token:** XDOL  
+**Nome do token:** x-DOL-x 
 **Símbolo:** XDOL  
 **Rede:** Ethereum (ERC-20)  
 **Contrato:** 0xA4842662637e7C8A0210247D89244B0E45d3f777  
