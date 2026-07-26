@@ -1,18 +1,46 @@
 {
-  "token": "x-DOL-x",
-  "simbolo": "XDOL",
-  "rede": "Ethereum",
-  "contrato": "0xA4842662637e7C8A0210247D89244B0E45d3f777",
+  "token": "XDOL Digital Dollar",
+  "symbol": "XDOL",
+  "network": "Ethereum",
+  "standard": "ERC-20",
+  "contract": "0xA4842662637E7C8A0210247D89244B0E45D3F777",
+  "decimals": 6,
 
-  "oferta_total": 500000000,
-  "circulating_supply": 0,
-  "fornecimento_bloqueado": 500000000,
+  "total_supply": 500000000,
+  "max_supply": 500000000,
+  "circulating_supply": 293000000,
+  "circulating_supply_status": "ESTIMATED",
+  "locked_supply": 207000000,
+  "circulating_supply_method": "total_supply minus locked_supply",
 
-  "decimais": 6,
+  "locked_wallets": [
+    {
+      "address": "0x71B5759d73262FBb223956913ecF4ecC51057641",
+      "amount": 200000000,
+      "label": "6 Month Lock"
+    },
+    {
+      "address": "0x68f45001528737c74d32ffc3babd340f5930b119",
+      "amount": 2000000,
+      "label": "2 Year Lock"
+    },
+    {
+      "address": "0x1dd49f346726749eedd73a121f0f61a0511773b4",
+      "amount": 5000000,
+      "label": "6 Month Lock"
+    }
+  ],
 
-  "cunhavel": false,
-  "inflacionario": false,
-  "controle_do_proprietario": false,
+  "mintable": false,
+  "inflationary": false,
 
-  "status": "DEPLOYED_NO_MARKET"
+  "market_status": "ACTIVE_DEX_MARKET",
+  "primary_market": {
+    "dex": "Uniswap V3",
+    "pair": "XDOL/USDT",
+    "fee_tier_percent": 0.3,
+    "pool_address": "0x863a3534136d1f4a6513d78daff7dfbe6daf5eb8"
+  },
+
+  "last_updated": "2026-07-25"
 }
