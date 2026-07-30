@@ -3,37 +3,45 @@
   "symbol": "XDOL",
   "network": "Ethereum",
   "standard": "ERC-20",
-  "contract": "0xA4842662637E7C8A0210247D89244B0E45D3F777",
+  "contract": "0xA4842662637E7C8A0210247D89244B0E45d3f777",
   "decimals": 6,
-
   "total_supply": 500000000,
   "max_supply": 500000000,
-  "circulating_supply": 293000000,
-  "circulating_supply_status": "ESTIMATED",
-  "locked_supply": 207000000,
-  "circulating_supply_method": "total_supply minus locked_supply",
-
-  "locked_wallets": [
+  "circulating_supply": 296529010.687375,
+  "circulating_supply_status": "ONCHAIN_SNAPSHOT",
+  "non_circulating_supply": 203470989.312625,
+  "circulating_supply_method": "total_supply minus PinkLock02 balance minus project deployer/team wallet balance",
+  "snapshot": {
+    "ethereum_block": 25644025,
+    "verified_at_utc": "2026-07-30T06:58:24.857Z",
+    "note": "The deployer wallet balance is dynamic. CoinGecko should derive the current circulating supply on-chain from the disclosed excluded addresses."
+  },
+  "excluded_wallets": [
     {
       "address": "0x71B5759d73262FBb223956913ecF4ecC51057641",
       "amount": 200000000,
-      "label": "6 Month Lock"
+      "label": "PinkLock02 locked supply"
     },
     {
-      "address": "0x68f45001528737c74d32ffc3babd340f5930b119",
-      "amount": 2000000,
-      "label": "2 Year Lock"
-    },
-    {
-      "address": "0x1dd49f346726749eedd73a121f0f61a0511773b4",
-      "amount": 5000000,
-      "label": "6 Month Lock"
+      "address": "0x6621fDE87F4E7120A3D2B6c7C3b689e1cB5f43a9",
+      "amount_at_snapshot": 3470989.312625,
+      "label": "Project deployer/team wallet"
     }
   ],
-
+  "locked_positions": [
+    {
+      "lock_id": 1020923,
+      "amount": 100000000,
+      "unlock_date_utc": "2026-12-02T08:08:00Z"
+    },
+    {
+      "lock_id": 1020924,
+      "amount": 100000000,
+      "unlock_date_utc": "2028-06-27T08:39:00Z"
+    }
+  ],
   "mintable": false,
   "inflationary": false,
-
   "market_status": "ACTIVE_DEX_MARKET",
   "primary_market": {
     "dex": "Uniswap V3",
@@ -41,6 +49,11 @@
     "fee_tier_percent": 0.3,
     "pool_address": "0x863a3534136d1f4a6513d78daff7dfbe6daf5eb8"
   },
-
-  "last_updated": "2026-07-25"
+  "sources": {
+    "token": "https://etherscan.io/token/0xA4842662637E7C8A0210247D89244B0E45d3f777",
+    "pinklock": "https://etherscan.io/address/0x71B5759d73262FBb223956913ecF4ecC51057641",
+    "deployer": "https://etherscan.io/address/0x6621fDE87F4E7120A3D2B6c7C3b689e1cB5f43a9",
+    "market_api": "https://xdol.com.br/api/"
+  },
+  "last_updated": "2026-07-30"
 }
